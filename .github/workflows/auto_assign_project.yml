@@ -28,4 +28,4 @@ jobs:
         contains(github.event.pull_request.labels.*.name, 'bug')
       with:
         project: 'https://github.com/srggrs/assign-one-project-github-action/projects/3'
-        column_name: 'Labeled'
+        column_name: 'Todo'
