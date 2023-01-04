@@ -27,5 +27,5 @@ jobs:
         contains(github.event.issue.labels.*.name, 'bug') ||
         contains(github.event.pull_request.labels.*.name, 'bug')
       with:
-        project: 'https://github.com/srggrs/assign-one-project-github-action/projects/3'
+        project: 'https://github.com/users/bms63/projects/1'
         column_name: 'Todo'
